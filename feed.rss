@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Cake.Markdown-Pdf</title>
+		<link>http://wozzo.github.io/Cake.Markdown-Pdf</link>
+		<description />
+		<copyright>2017</copyright>
+		<pubDate>Sun, 27 Aug 2017 11:42:57 GMT</pubDate>
+		<lastBuildDate>Sun, 27 Aug 2017 11:42:57 GMT</lastBuildDate>
+		<item>
+			<title>New Release V0.1.0</title>
+			<link>http://wozzo.github.io/Cake.Markdown-Pdf/blog/new-release-v0.1.0</link>
+			<description>&lt;p&gt;First release of Cake.Markdown-Pdf&lt;/p&gt;</description>
+			<author>Warren Bates</author>
+			<guid>http://wozzo.github.io/Cake.Markdown-Pdf/blog/new-release-v0.1.0</guid>
+			<pubDate>Fri, 18 Aug 2017 00:00:00 GMT</pubDate>
+		</item>
+	</channel>
+</rss>
