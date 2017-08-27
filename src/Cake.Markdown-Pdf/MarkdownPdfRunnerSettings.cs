@@ -4,6 +4,9 @@ using Cake.Core.Tooling;
 
 namespace Cake.Markdown_Pdf
 {
+    /// <summary>
+    /// Markdown-pdf settings
+    /// </summary>
     public class MarkdownPdfRunnerSettings : ToolSettings
     {
         internal void Evaluate(ProcessArgumentBuilder args)
@@ -38,19 +41,61 @@ namespace Cake.Markdown_Pdf
                 args.Append(FilePath);
         }
 
+        /// <summary>
+        /// output usage information
+        /// </summary>
         public bool Help { get; set; }
+        /// <summary>
+        /// output the version number
+        /// </summary>
         public bool Version { get; set; }
+        /// <summary>
+        /// Path of the markdown file to convert
+        /// </summary>
         public string FilePath { get; set; }
+        /// <summary>
+        /// Path to phantom binary
+        /// </summary>
         public string PhantomPath { get; set; }
+        /// <summary>
+        /// Path to runnings (header, footer)
+        /// </summary>
         public string RunningsPath { get; set; }
+        /// <summary>
+        /// Path to custom CSS file
+        /// </summary>
         public string CssPath { get; set; }
+        /// <summary>
+        /// Path to custom highlight-CSS file
+        /// </summary>
         public string HighlightCssPath { get; set; }
+        /// <summary>
+        /// Options to pass to Remarkable
+        /// </summary>
         public string RemarkableOptions { get; set; }
+        /// <summary>
+        /// 'A3', 'A4', 'A5', 'Legal', 'Letter' or 'Tabloid'
+        /// </summary>
         public MarkdownPdfPaperFormat PaperFormat { get; set; }
+        /// <summary>
+        /// 'portrait' or 'landscape'
+        /// </summary>
         public MarkdownPdfOrientation Orientation { get; set; }
+        /// <summary>
+        /// Supported dimension units are: 'mm', 'cm', 'in', 'px'
+        /// </summary>
         public string PaperBorder { get; set; }
+        /// <summary>
+        /// Delay before rendering the PDF
+        /// </summary>
         public int RenderDelay { get; set; }
+        /// <summary>
+        /// Timeout before the page is rendered in case `page.onLoadFinished` isn't fired
+        /// </summary>
         public int LoadTimeout { get; set; }
+        /// <summary>
+        /// Path of where to save the PDF
+        /// </summary>
         public string OutFilePath { get; set; }
     }
 }
