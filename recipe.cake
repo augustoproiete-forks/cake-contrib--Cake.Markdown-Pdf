@@ -6,9 +6,9 @@ BuildParameters.SetParameters(context: Context,
                             buildSystem: BuildSystem,
                             sourceDirectoryPath: "./src",
                             title: "Cake.Markdown-Pdf",
-                            repositoryOwner: "wozzo",
+                            repositoryOwner: "cake-contrib",
                             repositoryName: "Cake.Markdown-Pdf",
-                            appVeyorAccountName: "wozzo",
+                            appVeyorAccountName: "cakecontrib",
                             shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
