@@ -1,4 +1,4 @@
-#load nuget:https://www.myget.org/F/cake-contrib/api/v2?package=Cake.Recipe&version=0.3.0-unstable0265
+#load nuget:?package=Cake.Recipe&version=1.0.0
 
 
 Environment.SetVariableNames();
@@ -9,7 +9,8 @@ BuildParameters.SetParameters(context: Context,
                             title: "Cake.Markdown-Pdf",
                             repositoryOwner: "cake-contrib",
                             repositoryName: "Cake.Markdown-Pdf",
-                            appVeyorAccountName: "cakecontrib");
+                            appVeyorAccountName: "cakecontrib",
+                            shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
