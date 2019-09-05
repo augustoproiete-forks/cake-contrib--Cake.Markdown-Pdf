@@ -8,8 +8,8 @@ BuildParameters.SetParameters(context: Context,
                             title: "Cake.Markdown-Pdf",
                             repositoryOwner: "wozzo",
                             repositoryName: "Cake.Markdown-Pdf",
-                            appVeyorAccountName: "wozzo");
-                            //nuspecFilePath: "nuspec/nuget/Cake.Markdown-Pdf.nuspec");
+                            appVeyorAccountName: "wozzo",
+                            shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
