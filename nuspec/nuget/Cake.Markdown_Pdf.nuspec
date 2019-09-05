@@ -15,7 +15,7 @@
     <tags>Cake Script Build Markdown Pdf Markdown-Pdf</tags>
   </metadata>
   <files>
-    <file src="Cake.Markdown-Pdf.xml" target="lib\net45" />
-    <file src="Cake.Markdown-Pdf.dll" target="lib\net45" />
+    <file src="Cake.Markdown-Pdf.xml" target="lib\net461" />
+    <file src="Cake.Markdown-Pdf.dll" target="lib\net461" />
   </files>
 </package>
