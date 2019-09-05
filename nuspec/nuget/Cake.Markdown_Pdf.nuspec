@@ -4,10 +4,11 @@
     <id>Cake.Markdown-Pdf</id>
     <title>Cake.Markdown-Pdf</title>
     <authors>Warren Bates</authors>
-    <owners>Warren Bates</owners>
-    <licenseUrl>https://github.com/wozzo/Cake.Markdown-Pdf/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/wozzo/Cake.Markdown-Pdf</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
+    <owners>Warren Bates, cake-contrib</owners>
+    <projectUrl>https://github.com/cake-contrib/Cake.Markdown-Pdf</projectUrl>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/cake-contrib/Cake.Markdown-Pdf.git"/>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Adds Markdown-Pdf alias for Cake</summary>
     <description>An alias for Cake to help with running Markdown-Pdf commands as part of a build</description>
